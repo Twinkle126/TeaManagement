@@ -1,1 +1,1 @@
-web : gunicorn thinkbridge.wsgi
+web: gunicorn thinkbridge.wsgi
