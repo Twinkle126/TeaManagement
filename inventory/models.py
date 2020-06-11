@@ -9,6 +9,8 @@ from django.utils.safestring import mark_safe
 
 # Create your models here.
 class TeaStallProducts(models.Model):
+    class Meta:
+        verbose_name = "Tea Shop"
     # item_id=models.IntegerField()
     item_name=models.CharField(max_length = 200)
     item_description=models.TextField()
