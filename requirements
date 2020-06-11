@@ -1,0 +1,10 @@
+django>=3.0.7
+django-heroku>=0.3.1
+fastapi>=0.45.0
+uvicorn>=0.11.5
+gunicorn>=20.0.4
+pandas>=0.25.3
+pymongo
+dnspython>=1.16.0
+xlrd >= 1.0.0
+whitenoise>=5.1.0
