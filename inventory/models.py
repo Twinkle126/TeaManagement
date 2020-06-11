@@ -13,7 +13,7 @@ class TeaStallProducts(models.Model):
     item_name=models.CharField(max_length = 200)
     item_description=models.TextField()
     item_price=models.FloatField()
-    # item_image=models.ImageField(upload_to="static/", null=True, blank=True)
+    # item_image=models.ImageField(upload_to="static", null=True, blank=True)
     item_image = models.ImageField(upload_to=settings.MEDIA_ROOT, blank=True)
 
     def url(self):
